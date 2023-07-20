@@ -1,11 +1,10 @@
 import './App.css';
+import Home from './pages/Home/Home';
 
 function App() {
 	return (
 		<>
-			<section className='main_container'>
-				<h1>Breaking News</h1>
-			</section>
+			<Home />
 		</>
 	);
 }
