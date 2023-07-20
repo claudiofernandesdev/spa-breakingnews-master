@@ -9,10 +9,12 @@ export default function Navbar() {
 					<i className="bi bi-search"></i>
 					<input type="text" placeholder="Pesquise por título..." />
 				</div>
-
-				<img src={logo} alt="Breaking News Logo" />
-
-				<button className="btn_primary">Entrar</button>
+				<div>
+					<img src={logo} alt="Breaking News Logo" />
+				</div>
+				<div>
+					<button className="btn_primary">Entrar</button>
+				</div>
 			</nav>
 		</>
 	);
