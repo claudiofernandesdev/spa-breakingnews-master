@@ -47,4 +47,12 @@ export const news = [
 		likes: 3,
 		comments: 5,
 	},
+	{
+		title: 'Notícia 7',
+		text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit magnam aut dignissimos placeat porro? Cupiditate nisi perferendis harum recusandae quis. Velit ratione quae quis saepe necessitatibus nesciunt numquam libero dolores tempore explicabo blanditiis atque aperiam optio perferendis voluptates consequuntur, exercitationem minus eum eaque beatae mollitia quos. Commodi enim excepturi odit nesciunt? Itaque temporibus sapiente sed laudantium dolorum nostrum quis impedit maxime ducimus doloremque? Corporis rerum, dolore tempore eveniet quia exercitationem nam fuga aliquam eaque voluptate?',
+		image:
+			'https://images.pexels.com/photos/1960153/pexels-photo-1960153.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
+		likes: 5,
+		comments: 2,
+	},
 ];
