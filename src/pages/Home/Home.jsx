@@ -1,11 +1,15 @@
+import { Card } from '../../components/Card/Card';
 import Navbar from '../../components/Navbar/Navbar';
-import { Button } from '../../components/Navbar/Navbarstyled';
+
+import { news } from '../../data.js';
 
 export default function Home() {
 	return (
 		<>
 			<Navbar />
-			<h1>Hello Breaking News Home!</h1>
+			{news.map((item, index) => (
+				<Card key={index} news={item} />
+			))}
 		</>
 	);
 }
